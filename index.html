@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texture Filtering Visualizer</title>
+    <link rel="stylesheet" href="dist/bundle.css">
+    <script src="dist/bundle.js" defer></script>
+</head>
+<body>
+    <header class="app-header">
+        <h1>Texture Filtering Visualizer</h1>
+    </header>
+
+    <div id="canvasSpace" style="position:relative; "></div>
+
+    <section class="tutorial">
+        <h2>Controls</h2>
+        <ul>
+            <li>Click a pixel to inspect its texture footprint.</li>
+            <li>Click the same pixel again to deselect it.</li>
+            <li>Move triangle vertices to change projection and distortion.</li>
+            <li>Adjust vertex depth (W) to observe perspective correction.</li>
+            <li>Modify UV coordinates to change texture mapping.</li>
+            <li>Change texture resolution.</li>
+            <li>Change checker size.</li>
+            <li>Switch between interpolation modes.</li>
+            <li>Switch between filtering modes.</li>
+            <li>Adjust anisotropy level (1x–16x).</li>
+            <li>Switch visualization modes.</li>
+            <li>Use the stepper to advance rasterization pixel-by-pixel or row-by-row.</li>
+            <li>Select a mip level to inspect generated mipmaps.</li>
+        </ul>
+    </section>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "lil-gui": "^0.21.0",
+    "typescript": "^6.0.3"
+  }
+}
