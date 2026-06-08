@@ -75,7 +75,7 @@ export class AppState {
     this.triangle = {
       p1: { x: 400, y: 700, w: 1.0 },
       p2: { x: 40, y: 400, w: 3.0 },
-      p3: { x: 800, y: 400, w: 3.0 },
+      p3: { x: 600, y: 400, w: 3.0 },
       uv1: new Vec2(1, 0),
       uv2: new Vec2(0, 1),
       uv3: new Vec2(1, 1),

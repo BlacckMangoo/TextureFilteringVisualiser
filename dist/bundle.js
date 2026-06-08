@@ -2934,8 +2934,8 @@
       app.redraw();
       updateStepLabel();
     },
-    stepMode: "pixel",
-    playSpeedMs: 50,
+    stepMode: "row",
+    playSpeedMs: 1,
     "Step: 0 / 0": () => {
     }
   };
