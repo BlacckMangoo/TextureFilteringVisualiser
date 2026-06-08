@@ -116,7 +116,7 @@ const stepperProxy = {
     app.redraw();
     updateStepLabel();
   },
-  stepMode: "pixel" as "pixel" | "row",
+  stepMode: "row" as "pixel" | "row",
   playSpeedMs: 50,
   "Step: 0 / 0": () => {},
 };
